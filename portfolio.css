@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --gray1: #333333;
+  --gray2: #555555;
+  --gray3: #cccccc;
+  --gray4: #aaaaaa;
+
+  --black: #080808;
+  --teal: #006060;
+  --lightteal: #008080;
+  --purple: #800080;
+  --navy: #000080;
+  --cyan: #17a2b8;
+  --violetred: #c71585;
+  --red: #ff0000;
+  --orange: #ffa500;
+  --green: #006400;
+}
+
+body {
+  margin: 0%;
+  background-image: url("bgcportfolio.jpg");
+  font-family: sans-serif;
+  font-size: 1.3em;
+  color: var(--gray1);
+}
+
+.flex-container {
+  display: flex;
+  justify-content: flex-end;
+  background-color: var(--gray2);
+}
+.flex-container:hover {
+  background-color: var(--black);
+}
+
+.navdiv {
+  float: left;
+}
+.navulist {
+  list-style-type: none;
+  font-size: x-large;
+  padding-top: 15px;
+}
+.navlist {
+  padding: 0px 15px 3px 3px;
+  display: flex;
+  color: var(--gray3);
+  text-decoration: none;
+}
+
+.navlist:hover {
+  color: var(--white);
+}
+
+.homediv {
+  color: var(--white);
+  text-align: center;
+  font-size: 35px;
+  padding-top: 15px;
+}
+
+.mediadiv {
+  color: var(--white);
+  padding-top: 5px;
+  text-align: center;
+  font-size: medium;
+  padding-bottom: 5px;
+}
+.mediaulist {
+  list-style-type: none;
+  padding-left: 585px;
+  padding-bottom: 30px;
+}
+.mediaimg {
+  border-radius: 50%;
+  height: 30px;
+}
+.profileimg {
+  border-radius: 50%;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  height: auto;
+  max-width: 265px;
+  padding-left: 10px;
+}
+.aboutme {
+  height: 300px;
+  width: 1100px;
+  border-radius: 20px;
+  margin-left: 70px;
+  background-color: var(--gray3);
+}
+.aboutmediv {
+  text-align: center;
+  color: var(--black);
+  font-size: 2em;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.intropara {
+  color: var(--black);
+  font-size: large;
+  font-style: italic;
+  padding-top: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
+  justify-content: center;
+  text-align: left;
+}
