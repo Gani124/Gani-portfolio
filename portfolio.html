@@ -22,13 +22,10 @@
             <a href="#aboutme" class="navlist">About Me</a>
           </li>
           <li class="navdiv">
-            <a href="#resume" class="navlist">Resume</a>
-          </li>
-          <li class="navdiv">
-            <a href="#project" class="navlist">Projects</a>
-          </li>
-          <li class="navdiv">
             <a href="#experience" class="navlist">Experience</a>
+          </li>
+          <li class="navdiv">
+            <a href="#projects" class="navlist">Projects</a>
           </li>
           <li class="navdiv">
             <a href="#contactme" class="navlist">Contact Me</a>
@@ -37,26 +34,32 @@
       </nav>
 
       <section class="home">
-        <div class="homediv" id="home">I am Sai Ganesh Polepalli</div>
-        <div class="mediadiv">Connect with me on</div>
-        <ul class="mediaulist">
-          <li class="medialist">
-            <a
-              class="mediaref"
-              href="http://www.linkedin.com/in/polepalli-sai-ganesh"
-              ><img
-                class="mediaimg"
-                src="linkedin.jpeg"
-                alt="Gani likendin profile"
-            /></a>
-            <a class="mediaref" href="https://github.com/Gani124"
-              ><img
-                class="mediaimg"
-                src="github.jpeg"
-                alt="Gani github profile"
-            /></a>
-          </li>
-        </ul>
+        <div class="homediv container-fluid" id="home">
+          I am Sai Ganesh Polepalli
+        </div>
+        <nav class="medianav">
+          <div class="mediadiv">
+            Connect with me on
+            <ul class="mediaulist">
+              <li class="medialist">
+                <a
+                  class="mediaref"
+                  href="http://www.linkedin.com/in/polepalli-sai-ganesh"
+                  ><img
+                    class="mediaimg"
+                    src="linkedin.jpg"
+                    alt="Gani likendin profile"
+                /></a>
+                <a class="mediaref" href="https://github.com/Gani124"
+                  ><img
+                    class="mediaimg"
+                    src="github.jpg"
+                    alt="Gani github profile"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </section>
 
       <section class="aboutme">
@@ -69,9 +72,9 @@
           <div class="row">
             <div class="column">
               <p class="intropara">
-                Hello, I'm Sai Ganesh Polepalli and I go by Gani. Basically I'm
-                from Banglore which is called IT HUB of india. I had completed
-                bachelor's degree on 2019 and I had wish to do my master's in
+                Hello, I'm Sai Ganesh Polepalli and I go by Gani. I'm from
+                Banglore which is called IT HUB of india. I had completed
+                bachelor's degree in 2019 and I had wish to do my master's in
                 USA. I'm Grad student majoring in computer science and this is
                 my 2nd term. I like to lift weights, play cricket and I'm a
                 state player back in india. I'm interested in backend
@@ -79,12 +82,107 @@
                 completed couple of certifications on cloud. I have also done
                 few projects which are linked below. I also like to play guitar
                 but never got chance to learn. Apart, from computer science I am
-                also interested in archeology and History.
+                also interested in archeology,History and Planetory Science.
               </p>
             </div>
           </div>
         </div>
       </section>
+
+      <hr class="seperationline" />
+      <div class="experiencediv" id="experience">
+        <h1 class="mainexp">My Job Experience</h1>
+        <div class="Experience" id="experience">
+          <h3 class="company">KMC Business School</h3>
+          <h4 class="jobtitle">Tech assistant</h4>
+          <h5 class="period">Sep 2022 - Present</h5>
+          <ul class="workdescription">
+            <li>
+              Assisted professors in business school with technical issues.
+            </li>
+            <li>
+              Troubleshoot the issues with system and assisting them in class.
+            </li>
+            <li>
+              Provided timely and professional help in the business with
+              technical business.
+            </li>
+          </ul>
+        </div>
+        <hr class="seperationline" />
+        <h3 class="company">ATOS Syntel</h3>
+        <h4 class="jobtitle">Associate Consultant 2</h4>
+        <h5 class="period">Dec 2019 - Aug 2022</h5>
+        <ul class="workdescription">
+          <li>
+            Worked as Software engineer in server and database management
+            systems and debugging, code deployments on telecommunications
+            technology specializing on Billing and rating system.
+          </li>
+          <li>
+            Extracting data on ORACLE TOAD using SQL and database concepts
+            required for the code deployments.
+          </li>
+          <li>
+            Worked on ITOP which is used for ticketing and tracking issues and
+            RCA.
+          </li>
+          <li>
+            Performed end-to-end architecture of various AWS services and used
+            spark in python to distribute data processing and improving
+            ingestion in data pipelines.
+          </li>
+          <li>
+            Provided support to end-users for application and usage of the
+            product and server management
+          </li>
+        </ul>
+      </div>
+
+      <hr class="seperationline" />
+      <div class="contactdiv"><h1>Contact Me</h1></div>
+      <p class="contactline">You can use below form to get in touch with me</p>
+      <div class="namediv container-fluid" id="contactme">
+        <form id="contactme" action="portfolio.html">
+          <div class="mb-3 row">
+            <div class="col">
+              <label for="contactname" class="col-sm-4 col-form-label"
+                >Name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="contactname"
+                placeholder="Name"
+              />
+            </div>
+            <div class="col">
+              <label for="mailingadd" class="col-sm-4 col-form-label"
+                >Mailing Address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="mailingadd"
+                placeholder="Email"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="col-sm-4 col-form-label">Message</label>
+            <textarea
+              type="text"
+              class="form-control"
+              id="message"
+              placeholder="Say Hello!"
+              style="height: 5rem"
+            ></textarea>
+          </div>
+          <div class="button">
+            <input type="submit" class="btn-primary" id="btn" />
+          </div>
+        </form>
+      </div>
     </main>
   </body>
 </html>
