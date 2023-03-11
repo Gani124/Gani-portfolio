@@ -80,8 +80,7 @@ body {
 }
 .mediaulist {
   list-style-type: none;
-  /* padding-left: 585px; */
-  padding-bottom: 30px;
+  padding-bottom: 5px;
   padding-top: 15px;
 }
 .mediaimg {
@@ -90,11 +89,9 @@ body {
 }
 .profileimg {
   border-radius: 50%;
-  padding-top: 7px;
-  padding-bottom: 10px;
+  padding-top: 10px;
   height: auto;
-  max-width: 265px;
-  padding-left: 10px;
+  max-width: 170px;
 }
 .aboutme {
   height: auto;
@@ -119,7 +116,7 @@ body {
   color: var(--black);
   font-size: large;
   font-style: italic;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-right: 30px;
   padding-left: 30px;
   justify-content: center;
@@ -163,4 +160,97 @@ body {
 }
 #btn:hover {
   background-color: var(--black);
+}
+
+.projtitle {
+  color: var(--white);
+  text-align: center;
+  padding-bottom: 10px;
+}
+.turtleprojname {
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: x-large;
+  font-weight: bold;
+  color: var(--white);
+  float: left;
+}
+.marioprojname {
+  padding-top: 10px;
+  padding-right: 10px;
+  font-size: x-large;
+  font-weight: bold;
+  color: var(--white);
+  float: right;
+}
+.marioprojectdiv,
+.turtleprojectdiv {
+  text-align: center;
+  color: var(--white);
+  font-size: auto;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.marioimg,
+.turtleimg {
+  padding-top: 7px;
+  padding-bottom: 10px;
+  height: auto;
+  max-width: 150px;
+}
+.turtleprojpara {
+  font-size: medium;
+  font-style: italic;
+  padding-right: 30px;
+  padding-left: 30px;
+  justify-content: center;
+  text-align: left;
+}
+.marioprojpara {
+  font-size: medium;
+  font-style: italic;
+  padding-right: 30px;
+  /* padding-left: 30px; */
+  justify-content: center;
+  text-align: left;
+}
+.turtletech {
+  float: left;
+  padding-left: 30px;
+}
+.mariotech {
+  float: left;
+}
+.turtleulist,
+.marioulist {
+  list-style-type: none;
+}
+.turtlelist {
+  font-size: medium;
+  font-style: italic;
+  float: left;
+  padding-left: 15px;
+}
+.mariolist {
+  font-size: medium;
+  font-style: italic;
+  float: left;
+  padding-left: 15px;
+}
+
+.marioproject,
+.project {
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+  border: 4px solid var(--white);
+}
+
+.projseperateline {
+  color: transparent;
 }
