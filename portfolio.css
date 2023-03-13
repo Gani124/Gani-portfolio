@@ -23,7 +23,7 @@
 
 body {
   margin: 0%;
-  background-image: url("bgm.jpg");
+  background-image: url("bgc.jpg");
   font-family: sans-serif;
   font-size: 1.3em;
   color: var(--gray1);
@@ -142,22 +142,22 @@ body {
   text-align: center;
   padding-bottom: 10px;
 }
-.turtleprojname {
-  padding-top: 10px;
-  padding-left: 10px;
-  font-size: x-large;
+.turtleprojname,
+.marioprojname {
+  padding-top: 20px;
+  margin-left: 0px;
   font-weight: bold;
   color: var(--white);
-  float: left;
+  /* float: left; */
 }
-.marioprojname {
+/* .marioprojname {
   padding-top: 10px;
   padding-right: 10px;
   font-size: x-large;
   font-weight: bold;
   color: var(--white);
   float: right;
-}
+} */
 .marioprojectdiv,
 .turtleprojectdiv {
   text-align: center;
@@ -255,18 +255,40 @@ body {
   background-color: var(--black);
 }
 
-@media only screen and (min-width: 415px) and (max-width: 768px)
-{
-  #mailname
-  {
-    width: auto;
+@media only screen and (max-width: 414px) {
+  .navulist {
+    font-size: 15px;
   }
-}
-@media only screen and (min-width: 769px) and (max-width: 1024px)
-{
-  #mailname
-  {
-    width: auto;
-  }
-}
 
+  .navlist {
+    padding: 0px 15px 0px 0px;
+  }
+  .aboutmediv {
+    display: flex;
+    flex-direction: column;
+  }
+  .marioprojectdiv,
+  .turtleprojectdiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 415px) and (max-width: 768px) {
+  #mailname {
+    width: auto;
+  }
+  .aboutmediv {
+    display: flex;
+    flex-direction: column;
+  }
+  .marioprojectdiv,
+  .turtleprojectdiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  #mailname {
+    width: auto;
+  }
+}
