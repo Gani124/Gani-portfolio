@@ -31,4 +31,5 @@ function submit(eve)
         console.log("Email: ", email);
         console.log("Message:", message);
     }
+    alert("your response is recorded")
 }

@@ -136,31 +136,6 @@ body {
   color: var(--white);
   margin-left: 10px;
 }
-.contactdiv {
-  color: var(--white);
-  text-align: center;
-}
-.contactline {
-  color: var(--white);
-  font-size: x-large;
-}
-.namediv {
-  color: var(--white);
-  font-size: x-large;
-}
-.button {
-  text-align: center;
-  border-radius: 5px;
-  margin-bottom: 15px;
-  padding-top: 10px;
-}
-#btn {
-  background-color: var(--gray1);
-  border: 5px solid var(--black);
-}
-#btn:hover {
-  background-color: var(--black);
-}
 
 .projtitle {
   color: var(--white);
@@ -254,3 +229,44 @@ body {
 .projseperateline {
   color: transparent;
 }
+.contactdiv {
+  color: var(--white);
+  text-align: center;
+}
+.contactline {
+  color: var(--white);
+  font-size: x-large;
+}
+.namediv {
+  color: var(--white);
+  font-size: x-large;
+}
+.button {
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
+#btn {
+  background-color: var(--gray1);
+  border: 5px solid var(--black);
+}
+#btn:hover {
+  background-color: var(--black);
+}
+
+@media only screen and (min-width: 415px) and (max-width: 768px)
+{
+  #mailname
+  {
+    width: auto;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px)
+{
+  #mailname
+  {
+    width: auto;
+  }
+}
+
