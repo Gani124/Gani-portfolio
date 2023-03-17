@@ -30,6 +30,6 @@ function submit(eve)
         console.log("Username: ", name);
         console.log("Email: ", email);
         console.log("Message:", message);
+        alert("your response is recorded");
     }
-    alert("your response is recorded")
 }
