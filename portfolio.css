@@ -199,9 +199,8 @@ html {
   display: flex;
   flex-direction: row;
 }
+
 .marioimg {
-  /* padding-top: 0px;
-  padding-bottom: 10px; */
   height: auto;
   max-width: 150px;
   border-style: dashed;
@@ -209,8 +208,6 @@ html {
   border-width: 6px;
 }
 .turtleimg {
-  /* padding-top: 0px;
-  padding-bottom: 10px; */
   height: auto;
   max-width: 150px;
   border-style: double;
@@ -260,12 +257,10 @@ html {
 .project {
   height: auto;
   width: auto;
-  /* border-radius: 20px; */
   border-style: dotted;
   border-width: 5px;
   margin-left: 70px;
   margin-right: 70px;
-  /* border: 4px solid var(--white); */
 }
 
 .projseperateline {
@@ -288,17 +283,24 @@ html {
   border-radius: 5px;
   margin-bottom: 15px;
   padding-top: 10px;
+  box-shadow: none !important;
 }
 #btn {
   background-color: var(--gray1);
   border: 5px solid var(--black);
   font-style: italic;
-  border-style: outset;
+  box-shadow: none !important;
 }
 #btn:hover {
   background-color: var(--black);
 }
-
+.form-control {
+  box-shadow: none !important;
+}
+.form-control:active,
+.form-control:focus {
+  border: none !important;
+}
 @media only screen and (max-width: 414px) {
   .navulist {
     font-size: 14px;
